@@ -11,7 +11,10 @@ import SwiftUI
 struct ConverterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let service = ConversionService()
+            let viewModel = ConverterViewModel(currencies: Currency.allCases, service: service)
+            let _ = viewModel.addMoney(1000, currency: .usd)
+            ConverterScreen(viewModel: viewModel)
         }
     }
 }

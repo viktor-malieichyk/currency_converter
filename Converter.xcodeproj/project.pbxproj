@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		775C01B529DC3C0400E5F0FD /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C01B429DC3C0400E5F0FD /* Currency.swift */; };
+		775C01B729DC413600E5F0FD /* ConversionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C01B629DC413600E5F0FD /* ConversionService.swift */; };
+		775C01BA29DC858200E5F0FD /* ExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C01B929DC858200E5F0FD /* ExchangeView.swift */; };
+		775C01BC29DC859900E5F0FD /* Balances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C01BB29DC859900E5F0FD /* Balances.swift */; };
+		775C01BF29DC85D800E5F0FD /* ConverterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C01BE29DC85D800E5F0FD /* ConverterScreen.swift */; };
+		775C01C229DC864E00E5F0FD /* ConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C01C129DC864E00E5F0FD /* ConverterViewModel.swift */; };
+		775C01C829DDACB600E5F0FD /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C01C729DDACB600E5F0FD /* UserDefaults.swift */; };
+		775C01CB29DDCBC700E5F0FD /* ConversionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C01CA29DDCBC700E5F0FD /* ConversionInfo.swift */; };
+		775C01CD29DDD2C000E5F0FD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C01CC29DDD2C000E5F0FD /* CustomButton.swift */; };
 		77C812DF29DB84B500564628 /* ConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C812DE29DB84B500564628 /* ConverterApp.swift */; };
-		77C812E129DB84B500564628 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C812E029DB84B500564628 /* ContentView.swift */; };
 		77C812E329DB84B600564628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C812E229DB84B600564628 /* Assets.xcassets */; };
 		77C812E729DB84B600564628 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C812E629DB84B600564628 /* Preview Assets.xcassets */; };
 		77C812F129DB84B600564628 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C812F029DB84B600564628 /* ConverterTests.swift */; };
 		77C812FB29DB84B600564628 /* ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C812FA29DB84B600564628 /* ConverterUITests.swift */; };
 		77C812FD29DB84B600564628 /* ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C812FC29DB84B600564628 /* ConverterUITestsLaunchTests.swift */; };
+		77C8130C29DB875900564628 /* ConversionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C8130B29DB875900564628 /* ConversionResult.swift */; };
+		77C8130E29DB876600564628 /* ConversionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C8130D29DB876600564628 /* ConversionRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		775C01B429DC3C0400E5F0FD /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		775C01B629DC413600E5F0FD /* ConversionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionService.swift; sourceTree = "<group>"; };
+		775C01B929DC858200E5F0FD /* ExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeView.swift; sourceTree = "<group>"; };
+		775C01BB29DC859900E5F0FD /* Balances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balances.swift; sourceTree = "<group>"; };
+		775C01BE29DC85D800E5F0FD /* ConverterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterScreen.swift; sourceTree = "<group>"; };
+		775C01C129DC864E00E5F0FD /* ConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewModel.swift; sourceTree = "<group>"; };
+		775C01C729DDACB600E5F0FD /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		775C01C929DDB53000E5F0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		775C01CA29DDCBC700E5F0FD /* ConversionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionInfo.swift; sourceTree = "<group>"; };
+		775C01CC29DDD2C000E5F0FD /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		77C812DB29DB84B500564628 /* Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C812DE29DB84B500564628 /* ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterApp.swift; sourceTree = "<group>"; };
-		77C812E029DB84B500564628 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		77C812E229DB84B600564628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77C812E429DB84B600564628 /* Converter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Converter.entitlements; sourceTree = "<group>"; };
 		77C812E629DB84B600564628 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +64,8 @@
 		77C812F629DB84B600564628 /* ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C812FA29DB84B600564628 /* ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterUITests.swift; sourceTree = "<group>"; };
 		77C812FC29DB84B600564628 /* ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77C8130B29DB875900564628 /* ConversionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionResult.swift; sourceTree = "<group>"; };
+		77C8130D29DB876600564628 /* ConversionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +93,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		775C01B829DC851600E5F0FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				775C01B929DC858200E5F0FD /* ExchangeView.swift */,
+				775C01BB29DC859900E5F0FD /* Balances.swift */,
+				775C01CC29DDD2C000E5F0FD /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		775C01BD29DC85BA00E5F0FD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				775C01BE29DC85D800E5F0FD /* ConverterScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		775C01C029DC863E00E5F0FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				775C01C129DC864E00E5F0FD /* ConverterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		775C01C529DC99C800E5F0FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77C812E229DB84B600564628 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		775C01C629DDACA800E5F0FD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				775C01C729DDACB600E5F0FD /* UserDefaults.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		77C812D229DB84B500564628 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +158,15 @@
 		77C812DD29DB84B500564628 /* Converter */ = {
 			isa = PBXGroup;
 			children = (
+				775C01C929DDB53000E5F0FD /* Info.plist */,
+				775C01C629DDACA800E5F0FD /* Helpers */,
+				775C01C529DC99C800E5F0FD /* Resources */,
+				775C01C029DC863E00E5F0FD /* ViewModels */,
+				775C01BD29DC85BA00E5F0FD /* Screens */,
+				775C01B829DC851600E5F0FD /* Views */,
+				77C8130A29DB86C200564628 /* Models */,
+				77C8130929DB86AB00564628 /* Services */,
 				77C812DE29DB84B500564628 /* ConverterApp.swift */,
-				77C812E029DB84B500564628 /* ContentView.swift */,
-				77C812E229DB84B600564628 /* Assets.xcassets */,
 				77C812E429DB84B600564628 /* Converter.entitlements */,
 				77C812E529DB84B600564628 /* Preview Content */,
 			);
@@ -127,6 +196,25 @@
 				77C812FC29DB84B600564628 /* ConverterUITestsLaunchTests.swift */,
 			);
 			path = ConverterUITests;
+			sourceTree = "<group>";
+		};
+		77C8130929DB86AB00564628 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				775C01B629DC413600E5F0FD /* ConversionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		77C8130A29DB86C200564628 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77C8130B29DB875900564628 /* ConversionResult.swift */,
+				77C8130D29DB876600564628 /* ConversionRequest.swift */,
+				775C01B429DC3C0400E5F0FD /* Currency.swift */,
+				775C01CA29DDCBC700E5F0FD /* ConversionInfo.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +347,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C812E129DB84B500564628 /* ContentView.swift in Sources */,
+				775C01BF29DC85D800E5F0FD /* ConverterScreen.swift in Sources */,
+				775C01C229DC864E00E5F0FD /* ConverterViewModel.swift in Sources */,
+				77C8130E29DB876600564628 /* ConversionRequest.swift in Sources */,
+				775C01CD29DDD2C000E5F0FD /* CustomButton.swift in Sources */,
+				775C01BA29DC858200E5F0FD /* ExchangeView.swift in Sources */,
+				775C01BC29DC859900E5F0FD /* Balances.swift in Sources */,
+				775C01CB29DDCBC700E5F0FD /* ConversionInfo.swift in Sources */,
+				775C01B729DC413600E5F0FD /* ConversionService.swift in Sources */,
+				775C01C829DDACB600E5F0FD /* UserDefaults.swift in Sources */,
+				775C01B529DC3C0400E5F0FD /* Currency.swift in Sources */,
+				77C8130C29DB875900564628 /* ConversionResult.swift in Sources */,
 				77C812DF29DB84B500564628 /* ConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +515,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Converter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Converter/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -427,7 +526,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -453,6 +552,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Converter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Converter/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -463,7 +563,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;

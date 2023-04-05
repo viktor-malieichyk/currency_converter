@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A3161267-30C3-48FA-8C3E-5D97A44C69DA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9185C311-9CB4-4717-BB7D-94DEDD8686D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/ViewModels/ConverterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "transferFunds()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9185C311-9CB4-4717-BB7D-94DEDD8686D7 - 1b254dfb2d89f679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConverterViewModel.convert() -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/ViewModels/ConverterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "1320">
+               </Location>
+               <Location
+                  uuid = "9185C311-9CB4-4717-BB7D-94DEDD8686D7 - 1b254dfb2d89f679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConverterViewModel.convert() -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/ViewModels/ConverterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "1736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE111E41-85C6-4179-B624-2BE4293C9FC4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/Services/ConversionService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "convert(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE111E41-85C6-4179-B624-2BE4293C9FC4 - 3133a43d77c4c034"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "EE111E41-85C6-4179-B624-2BE4293C9FC4 - 3133a43d77c4c034"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "EE111E41-85C6-4179-B624-2BE4293C9FC4 - b4204f2e2e42d960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1064">
+               </Location>
+               <Location
+                  uuid = "EE111E41-85C6-4179-B624-2BE4293C9FC4 - 3133a43d77c4c013"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "EE111E41-85C6-4179-B624-2BE4293C9FC4 - b4204f2e2e42d960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1076">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C9FDFE0-2E4A-476C-8D8B-045E66C8B8DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/Services/ConversionService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "convert(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C9FDFE0-2E4A-476C-8D8B-045E66C8B8DA - 3133a43d77c4c1b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "0C9FDFE0-2E4A-476C-8D8B-045E66C8B8DA - 3133a43d77c4c1f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "740">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DF583DE-7AD6-4D6B-BEA7-810417C806DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/Services/ConversionService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "convert(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8DF583DE-7AD6-4D6B-BEA7-810417C806DD - 3133a43d77c4c013"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "8DF583DE-7AD6-4D6B-BEA7-810417C806DD - 3133a43d77c4c013"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "8DF583DE-7AD6-4D6B-BEA7-810417C806DD - 3133a43d77c4c013"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78E81246-3900-40E8-BF14-BFB9C88328A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/Services/ConversionService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "convert(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78E81246-3900-40E8-BF14-BFB9C88328A4 - 3133a43d77c4c18f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "78E81246-3900-40E8-BF14-BFB9C88328A4 - 3133a43d77c4c18f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AFC2D6B-479E-422C-912F-1051E762F662"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/Services/ConversionService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "convert(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E356AFB-E245-4928-A202-F24140F0A11A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/Services/ConversionService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "convert(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E356AFB-E245-4928-A202-F24140F0A11A - b4204f2e2e42d98d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "0E356AFB-E245-4928-A202-F24140F0A11A - b4204f2e2e42d98d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "0E356AFB-E245-4928-A202-F24140F0A11A - b4204f2e2e42d98d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "0E356AFB-E245-4928-A202-F24140F0A11A - b4204f2e2e42d98d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "0E356AFB-E245-4928-A202-F24140F0A11A - b4204f2e2e42d98d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConversionService.convert(Converter.ConversionRequest, (Swift.Result&lt;Converter.ConversionResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/Services/ConversionService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7C933AA-04D2-44E9-B5B1-924AB37589FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/ViewModels/ConverterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "init(currencies:service:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFA80501-F69F-4EFA-B6B8-6879804B93A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/ViewModels/ConverterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "receiveCurrency"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B84BA40-35C2-40D6-8CA0-7C087AE91A5E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/ViewModels/ConverterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "sellCurrency"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0ED88DA-E259-41BF-A6BF-67EADFADFD35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/ViewModels/ConverterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "init(currencies:service:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1ADBD52-B970-4452-9B25-7E8B4C6D69DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/ViewModels/ConverterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "transferFunds()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C131DE9-335B-44DC-A369-ABA5D829F465"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/ViewModels/ConverterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "transferFunds()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C131DE9-335B-44DC-A369-ABA5D829F465 - 1b254dfb2d89f63b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConverterViewModel.convert() -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/ViewModels/ConverterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "0C131DE9-335B-44DC-A369-ABA5D829F465 - 1b254dfb2d89f63b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConverterViewModel.convert() -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/ViewModels/ConverterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "900">
+               </Location>
+               <Location
+                  uuid = "0C131DE9-335B-44DC-A369-ABA5D829F465 - 1b254dfb2d89f63b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConverterViewModel.convert() -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/ViewModels/ConverterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "968">
+               </Location>
+               <Location
+                  uuid = "0C131DE9-335B-44DC-A369-ABA5D829F465 - 1b254dfb2d89f63b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Converter.ConverterViewModel.convert() -&gt; ()"
+                  moduleName = "Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktor/Developer/Converter/Converter/ViewModels/ConverterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "984">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47CAFFEE-B5C6-4E7B-8625-D211FDA1C17B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Converter/Screens/ConverterScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
