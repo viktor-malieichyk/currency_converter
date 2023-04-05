@@ -27,14 +27,12 @@ struct ConverterContentView: View {
             .multilineTextAlignment(.trailing)
             .foregroundColor(kind.color)
 
-            .border(Color.blue)
             Picker("", selection: $selectedCurrency) {
                 ForEach(currencies, id: \.self) { selection in
                     Text(selection.rawValue)
                 }
             }
             .pickerStyle(.menu)
-            .border(Color.blue)
             .frame(width: 80)
         }
     }
