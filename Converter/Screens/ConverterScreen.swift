@@ -94,7 +94,6 @@ struct DecimalTextField: View {
         TextField("0", value: $value, formatter: formatter)
             .keyboardType(.decimalPad)
             .onReceive(Just(value)) { newValue in
-                print("### \(newValue)")
                 if value != newValue {
                     value = newValue
                 }

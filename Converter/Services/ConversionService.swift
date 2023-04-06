@@ -21,7 +21,6 @@ class ConversionService {
         guard let url = URL(string: urlString) else {
             return completion(.failure(ConversionError.invalidURL))
         }
-        print("### \(url)")
         
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data, error == nil else {

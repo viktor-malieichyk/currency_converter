@@ -162,9 +162,7 @@ class ConverterViewModel: BaseViewModel {
             error = .nothingToConvert
             return
         }
-        print("###### \(sellValue + calculateFee(for: sellValue)) < \(balances[sellCurrency] ?? 0.0)")
         if sellValue + calculateFee(for: sellValue) <= balances[sellCurrency] ?? 0.0 {
-            print("###### sell: \(sellCurrency.rawValue) receive: \(receiveCurrency.rawValue)")
             convert()
         } else {
             error = .notEnoughMoney
